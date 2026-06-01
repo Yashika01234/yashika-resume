@@ -1,4 +1,5 @@
 import aboutImg from "@/assets/yashika-about.jpg";
+import selfieAsset from "@/assets/yashika-selfie.png.asset.json";
 
 export function About() {
   return (
@@ -10,6 +11,10 @@ export function About() {
             <div className="absolute -inset-4 bg-accent-gradient rounded-3xl blur-2xl opacity-20" />
             <div className="relative rounded-3xl overflow-hidden shadow-elevated">
               <img src={aboutImg} alt="Yashika working" loading="lazy" width={1024} height={1280} className="w-full h-full object-cover aspect-[4/5]" />
+            </div>
+            {/* Small selfie avatar badge */}
+            <div className="absolute -top-5 -left-5 h-20 w-20 md:h-24 md:w-24 rounded-full p-1 bg-accent-gradient shadow-glow animate-float">
+              <img src={selfieAsset.url} alt="Yashika Nanda" className="h-full w-full rounded-full object-cover border-2 border-white" />
             </div>
             <div className="absolute -bottom-6 -right-6 glass-light rounded-2xl p-5 shadow-elevated max-w-[180px]">
               <p className="text-3xl font-bold gradient-text">NSUT</p>

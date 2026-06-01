@@ -1,6 +1,6 @@
 import heroBg from "@/assets/hero-bg.jpg";
 import podiumAsset from "@/assets/yashika-podium.png.asset.json";
-import selfieAsset from "@/assets/yashika-selfie.png.asset.json";
+
 import { ArrowRight, FileText, Linkedin, Mail, Sparkles } from "lucide-react";
 
 export function Hero() {
@@ -24,7 +24,7 @@ export function Hero() {
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight">
-              <span className="gradient-text-light">Yashika.</span>
+              <span className="gradient-text-light">Yashika</span>
             </h1>
 
             <p className="mt-6 text-xl md:text-2xl text-white/80 font-medium">
@@ -58,13 +58,10 @@ export function Hero() {
                 className="w-full h-auto rounded-[1.5rem] object-cover aspect-[4/5]"
               />
 
-              {/* Small professional selfie thumbnail */}
-              <div className="absolute -bottom-6 -right-6 glass-card rounded-2xl p-1.5 shadow-elevated animate-float">
-                <img
-                  src={selfieAsset.url}
-                  alt="Yashika Nanda"
-                  className="h-24 w-24 md:h-28 md:w-28 rounded-xl object-cover"
-                />
+              <div className="absolute -bottom-5 -right-5 glass-card rounded-2xl p-4 w-48 animate-float">
+                <p className="text-xs text-white/60">Currently</p>
+                <p className="text-sm font-semibold">B.Tech AI/ML</p>
+                <p className="text-xs text-purple-glow">NSUT · 2028</p>
               </div>
 
               <div className="absolute -top-5 -left-5 glass-card rounded-2xl px-4 py-3 animate-float [animation-delay:1s]">
