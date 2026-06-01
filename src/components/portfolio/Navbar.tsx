@@ -23,7 +23,7 @@ export function Navbar() {
         <nav className={`flex items-center justify-between rounded-2xl px-5 py-3 transition-all duration-500 ${scrolled ? "glass shadow-elevated" : ""}`}>
           <a href="#top" className="flex items-center gap-2 group">
             <span className="h-8 w-8 rounded-xl bg-accent-gradient shadow-glow grid place-items-center text-white font-bold text-sm">YN</span>
-            <span className="font-display font-semibold text-white tracking-tight">Yashika Nanda</span>
+            <span className="font-display font-semibold text-white tracking-tight">Yashika</span>
           </a>
           <ul className="hidden md:flex items-center gap-1">
             {links.map((l) => (
