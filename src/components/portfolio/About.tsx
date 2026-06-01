@@ -1,4 +1,5 @@
 import aboutImg from "@/assets/yashika-about.jpg";
+import selfieAsset from "@/assets/yashika-selfie.png.asset.json";
 
 export function About() {
   return (
