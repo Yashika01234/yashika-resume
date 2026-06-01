@@ -24,7 +24,8 @@ export function Contact() {
           </p>
 
           <a href="mailto:yashika_ug24@nsut.ac.in" className="mt-8 inline-flex items-center gap-2 bg-accent-gradient px-7 py-4 rounded-xl font-semibold shadow-glow hover:scale-[1.03] transition-transform">
-            <Mail className="h-4 w-4" /> yashika_ug24@nsut.ac.in
+            <Mail className="h-4 w-4" />
+            <span>yashika_ug24@nsut.ac.in</span>
           </a>
         </div>
 
