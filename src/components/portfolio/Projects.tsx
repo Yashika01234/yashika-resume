@@ -2,6 +2,13 @@ import { ArrowUpRight, Droplets, LineChart, Stethoscope, Train, Map } from "luci
 
 const projects = [
   {
+    icon: Map,
+    title: "UrbanFlow",
+    description: "A smart urban mobility and traffic flow optimization platform leveraging data analytics for city planning.",
+    stack: ["Python", "Data Analytics", "Machine Learning"],
+    tag: "Data · Urban",
+  },
+  {
     icon: Droplets,
     title: "Smart Water Quality Monitoring System",
     description: "Developed a smart monitoring interface for tracking water quality parameters using Arduino and IoT concepts.",
