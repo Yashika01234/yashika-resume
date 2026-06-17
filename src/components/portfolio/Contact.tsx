@@ -3,7 +3,7 @@ import { Mail, Linkedin, Github, Code2, ArrowUpRight } from "lucide-react";
 const channels = [
   { icon: Mail, label: "Email", value: "yashika_ug24@nsut.ac.in", href: "mailto:yashika_ug24@nsut.ac.in", live: true },
   { icon: Linkedin, label: "LinkedIn", value: "yashika-nanda", href: "https://www.linkedin.com/in/yashika-nanda-936414321", live: true },
-  { icon: Github, label: "GitHub", value: "Yashika0123", href: "https://github.com/Yashika0123", live: true },
+  { icon: Github, label: "GitHub", value: "Yashika01234", href: "https://github.com/Yashika01234", live: true },
   { icon: Code2, label: "LeetCode", value: "yashika_ug24", href: "https://leetcode.com/u/yashika_ug24/", live: true },
 ];
 
