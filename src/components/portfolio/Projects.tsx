@@ -1,4 +1,4 @@
-import { ArrowUpRight, Droplets, LineChart, Stethoscope, Train } from "lucide-react";
+import { ArrowUpRight, Droplets, LineChart, Stethoscope, Train, Map } from "lucide-react";
 
 const projects = [
   {
