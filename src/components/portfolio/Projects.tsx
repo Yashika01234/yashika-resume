@@ -4,9 +4,9 @@ const projects = [
   {
     icon: Map,
     title: "UrbanFlow",
-    description: "A smart urban mobility and traffic flow optimization platform leveraging data analytics for city planning.",
-    stack: ["Python", "Data Analytics", "Machine Learning"],
-    tag: "Data · Urban",
+    description: "An IoT-enabled smart parking system that reduces parking search time, traffic congestion, and manual intervention. Combines hardware sensors with a web dashboard for real-time parking availability, RFID-based entry/exit, and automated gate control.",
+    stack: ["ESP32/Arduino", "RFID", "IR Sensors", "HTML", "CSS", "JavaScript", "Python (Flask)", "SQL", "MQTT"],
+    tag: "IoT · Smart Parking",
   },
   {
     icon: Droplets,
