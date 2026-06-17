@@ -1,6 +1,13 @@
-import { ArrowUpRight, Droplets, LineChart, Stethoscope, Train } from "lucide-react";
+import { ArrowUpRight, Droplets, LineChart, Stethoscope, Train, Map } from "lucide-react";
 
 const projects = [
+  {
+    icon: Map,
+    title: "UrbanFlow",
+    description: "A smart urban mobility and traffic flow optimization platform leveraging data analytics for city planning.",
+    stack: ["Python", "Data Analytics", "Machine Learning"],
+    tag: "Data · Urban",
+  },
   {
     icon: Droplets,
     title: "Smart Water Quality Monitoring System",

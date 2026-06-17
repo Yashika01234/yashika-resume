@@ -3,7 +3,6 @@ import { Award, Medal, Trophy, GraduationCap, BookOpen, Sparkles, BadgeCheck } f
 const achievements = [
   { icon: Medal, title: "Silver Medalist", sub: "International Olympiad of English Language (IOEL)", accent: "from-slate-300 to-slate-500" },
   { icon: Award, title: "Bronze Medalist", sub: "Bharatiya Sanskriti Gyan Pariksha", accent: "from-amber-400 to-orange-600" },
-  { icon: Trophy, title: "CUET Chemistry 200/200", sub: "Perfect score in entrance examination", accent: "from-purple-400 to-fuchsia-600" },
   { icon: GraduationCap, title: "EF SET C2", sub: "Highest level English proficiency", accent: "from-blue-400 to-indigo-600" },
 ];
 

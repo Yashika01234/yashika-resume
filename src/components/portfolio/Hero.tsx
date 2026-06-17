@@ -60,13 +60,13 @@ export function Hero() {
 
               <div className="absolute -bottom-5 -right-5 glass-card rounded-2xl p-4 w-48 animate-float">
                 <p className="text-xs text-white/60">Currently</p>
-                <p className="text-sm font-semibold">B.Tech AI/ML</p>
+                <p className="text-sm font-semibold">B.Tech ECE (AI & ML)</p>
                 <p className="text-xs text-purple-glow">NSUT · 2028</p>
               </div>
 
               <div className="absolute -top-5 -left-5 glass-card rounded-2xl px-4 py-3 animate-float [animation-delay:1s]">
                 <p className="text-xs text-white/60">Currently</p>
-                <p className="text-sm font-semibold">B.Tech AI/ML</p>
+                <p className="text-sm font-semibold">B.Tech ECE (AI & ML)</p>
                 <p className="text-xs text-purple-glow">NSUT · 2028</p>
               </div>
             </div>

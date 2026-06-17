@@ -1,7 +1,7 @@
 const stats = [
   { value: "4+", label: "Projects Built", sub: "shipped & deployed" },
-  { value: "7.7", label: "Current CGPA", sub: "NSUT · ongoing" },
-  { value: "2028", label: "Graduating", sub: "B.Tech AI/ML" },
+  { value: "7.9", label: "Current CGPA", sub: "NSUT · ongoing" },
+  { value: "2028", label: "Graduating", sub: "B.Tech ECE (AI & ML)" },
   { value: "C2", label: "English Proficiency", sub: "EF SET Certified" },
 ];
 
