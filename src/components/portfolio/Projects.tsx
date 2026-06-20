@@ -2,6 +2,13 @@ import { ArrowUpRight, Droplets, LineChart, Stethoscope, Train, Map, Shield } fr
 
 const projects = [
   {
+    icon: Shield,
+    title: "CreatorShield AI",
+    description: "An AI-powered contract intelligence platform that analyzes influencer and creator agreements, highlights risky clauses, explains them in plain language, and suggests safer alternatives using LLMs and NLP.",
+    stack: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Python", "FastAPI", "SQLite", "Google Gemini API", "REST APIs", "Git", "GitHub"],
+    tag: "AI · NLP · Legal Tech",
+  },
+  {
     icon: Map,
     title: "UrbanFlow",
     description: "An IoT-enabled smart parking system that reduces parking search time, traffic congestion, and manual intervention. Combines hardware sensors with a web dashboard for real-time parking availability, RFID-based entry/exit, and automated gate control.",
