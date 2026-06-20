@@ -1,6 +1,13 @@
-import { ArrowUpRight, Droplets, LineChart, Stethoscope, Train, Map } from "lucide-react";
+import { ArrowUpRight, Droplets, LineChart, Stethoscope, Train, Map, Shield } from "lucide-react";
 
 const projects = [
+  {
+    icon: Shield,
+    title: "CreatorShield AI",
+    description: "An AI-powered contract intelligence platform that analyzes influencer and creator agreements, highlights risky clauses, explains them in plain language, and suggests safer alternatives using LLMs and NLP.",
+    stack: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Python", "FastAPI", "SQLite", "Google Gemini API", "REST APIs", "Git", "GitHub"],
+    tag: "AI · NLP · Legal Tech",
+  },
   {
     icon: Map,
     title: "UrbanFlow",
