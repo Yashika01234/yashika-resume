@@ -9,7 +9,7 @@ export function About() {
         <div className="max-w-3xl">
           <div className="flex items-center gap-4 mb-8">
             {/* Selfie avatar */}
-            <div className="h-32 w-32 rounded-full p-[2px] bg-accent-gradient shadow-glow shrink-0">
+            <div className="h-20 w-20 rounded-full p-[2px] bg-accent-gradient shadow-glow shrink-0">
               <img
                 src={selfieAsset.url}
                 alt="Yashika Nanda"
